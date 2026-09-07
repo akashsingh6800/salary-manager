@@ -455,7 +455,7 @@ function App() {
       label="Currency"
       value={currency}
       onChange={(event) => setCurrency(event.target.value)}
-      inputProps={{ maxLength: 3 }}
+     
     />
   </Grid>
 
